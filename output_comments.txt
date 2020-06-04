@@ -1,0 +1,54 @@
+The driver packages available on the Creative support pages are only rarely updated. Usually only for the latest models and when the bundled software / control center is updated as well.
+
+At least for the USB devices, the standard update channel is Windows Update. E.g., the latest X7 driver package available from Creative was released in 2016. I got like 4 driver updates in between, they were all released for the X7 exclusively via WU.
+
+You also have to know that Creatives USB driver is a generic driver for all of their USB Sound Blaster devices. Whenever a new driver comes out, it will be distributed via WU for all Creative USB sound cards, even if only the software package for the latest model is updated on the Creative page itself.
+
+Btw., what you get via WU is not a Microsoft driver. When Creative has a new driver, they send it to Microsoft. It's an original Creative driver update, it just gets delivered automatically via WU.The headphone amps are identical, "Xamp Discrete Headphone Bi-amplifier". AE-9 obviously has extra the "Audio Control Module".
+
+Yes, there is a 7.1 virtual surround mode for headphones that provides a HRTF function.thanks, that's good enough for me! Pulling the trigger on AE-7!I spent a lot of bucks from mic to soundcard. But the aston spirit is not working on my Creative AE9 :(. Im actually planning to buy Focus rite 2i2 audio interface if I don't get this fix.Interesting, I 've got a Sound Blaster Z and am running the Windows 10 - 2004 build, running with no issues whatsoever. In fact, I've been using my Sound Blaster since Win 7, then 8, then 8.1, and I've only ever had one major issue with it (control panel taking forever to open up), which was fixed and hasn't been a problem for 2 years now.  
+
+
+Could you give more details on your system? When was it bought/built? Specifications. Peripherals installed or plugged in. Which PCI slot is the SBZx in? Which drivers specifically, are you running. Did you just recently acquire the SBZ (and how), or have you had it working fine in the past?  
+
+
+As much information as possible would be nice.I am running a ZxR without any issues on my Windows 10 (ver 1909), [Dell Precision T7610](https://www.dell.com/al/business/p/precision-t7610-workstation/pd).
+
+Did you download the software from Creative website (Release date:  25 Sep 19) ?
+
+[https://support.creative.com/products/ProductDetails.aspx?catID=1&subCatID=1005&prodID=21384&prodName=Sound%20Blaster%20Zx&subCatName=Z-Series&CatName=](https://support.creative.com/products/ProductDetails.aspx?catID=1&subCatID=1005&prodID=21384&prodName=Sound%20Blaster%20Zx&subCatName=Z-Series&CatName=)Get Autoruns and check the startup group to uncheck any other sound drivers and disable onboard sound in the BIOS and if you have one on the video card.  Also it wouldn't hurt to run sfc /scannow in an admin command prompt to check for damaged system files. CCcleaner has a registry cleaner, and that could help. Before any of this be sure to make a restore point.So, I did a full refresh of Windows 10. I am running the latest Fast Insider build of Windows 10.        It still does not allow me to install the software. I have ended up re-enabling my onboard sound and using that as I dislike 2.1 sound when I am using a 5.1 speaker system. Really a shame that there is no way to force the installation of the software, I have tried by unpacking the install package, but that only gets you so far. Now I just noticed that the version I am downloading is Soundblaster Z-series, but I have a ZxR, which means this whole hoopla is due to an oversight on my part. I'll try the ZxR package when I get home.Yes you can use the RCA outputs on the AE-9 to the amp.Try this: When you open the Sound Blaster Control Panel and it shows you that same error message...go to the little dropdown arrow on the top right near the exit button, click audio device selection, and check to make sure that the SBZ device is selected in there.
+
+Let me know if that helps.Time to make a backup of your important data, format and do a fresh installation of Windows my friend. Otherwise you'll spend days trying to fix your headaches. And you won't know if you got corrupted system files, or if it is your hardware actually failing.
+
+If you still have issues after a fresh install, chances are you have faulty hardware. Motherboard, or hard drive most likely. But it may also be something else. If you have a cheap PSU, it may be failing and damaging other components. That's the worst case scenario.
+
+Your computer freezing, then those issues popping-up afterwards is a dead giveaway of hardware failure to me. And from the looks of it, it is not your sound card. You could try a boot-time deep scan chkdsk, but I wouldn't hold my breath for it to fix your problems.Did Windows just got updated to version 2004?
+
+Then you won't have sound.Try to repair damaged system files with the ones Windows keeps as a backup, in an admin command prompt:
+
+sfc /scannnow
+
+I'd do that first, the most likely thing to fix it after a crash. Also did you try going back to a recent restore point? Another quick fix sometimes, but I'd try a repair first.Thank you.  I get another error "There is no supported audio device available".Fair enough, thanks!No not yet.Cool, thank you!There might be way too many ways to diagnose this here in text.   
+
+
+1. Check your device manager to see if the Speakers(Sound Blaster Z) device shows up in Audio or not.  
+
+2. In the Sound Control Panel (accessed through the right panel in the Open Sound Settings bottom right), check to see if Speakers aren't disabled or not plugged in.  
+
+3. Recheck the Sound Device selection in Sound Blaster control panel after other two checkups.They appear in Device Manager and tell me they are working properly in properties.
+
+In the Sound Control Panel, there are no output devices found...not even the motherboard one.In the Sound Control Panel, right click on the empty space, and select Show for both those options. Does it still show any devices? A screenshot would be nice.I tried posting earlier but for some reason it didn't go through.  I think I will just refresh or reinstall windows though.  Thanks for your help!Sure. Can act as a dacamp, just dac or even just a surround virtualizer which is pretty rare if not unique.I’ve been wondering the same thing I wanted to use my AE-9 as a dac and hooking up a amp to it through the RCAsI appreciate that. Any input on the ~~headphone~~  microphone\*  port still being able to be used? Any grounding issues there?Edit  
+Summary:  
+If the PC has noisy USB Power.  
+Line In: Buzz noise  
+Optical In: No problem  
+Line Out: No problem  
+Optical Out: No problem  
+Headphone/Mic: No problem  
+Mic: No problemI did a quick test and the buzzing is only on the Line In and not on the Microphone inputs.Dolby Digital 👍I have an AE-5 and received my X3 this weekend. so far the general sound quality is way worse on the X3. Face mapping is not required to use any feature on the device . I wouldn’t bother with it, Super Xfi is utterly useless and makes everything sound terrible. the only thing that is better on the X3 is no latency mic monitoring.You are not required to use the face mapping app if you don't want to use the Super XFi technology.  
+
+
+Then again if you don't want to use the Super XFi (and I am on the completely opposite side from the guy who says it's utterly useless and makes everything soudn terrible, I think it's just incredible), why even get the X3.  
+
+
+And yes, AE-5 should work in the 4x slot just fine.I haven't figured out how to use mic monitoring. Got any tips?The sound quality has got to be better than my realtek 892 onboard sound card.great thanks!Same I usually hate fake surround shit like this but some songs sound incredible on it however some stuff does sound off.For the X3 it’s right there in the software. You can adjust the level of monitoring. Works really well actually.That I can confirm. You will be satisfied coming from MB audio for sure. I wish Creative gave the same love to the microphone features of the AE series as the did with the X3.Yeah I had a pretty good onboard sound chip but I think the X3 sounds better. I think the X3 is worth it just for the amount of shit you can do with it. If you're not a snob Audiophile and just a gamer looking to have an external card that can provide alot I think the X3 is worth. I got mine today and don't mind any of the features ( altho the headmapping thing is so fucking pointless I don't see why they have it and it never works for me app crashes everytime i try to take the pictures) That being said I think the Super X-FI would probably be better with a full stereo system and regular stereo headphones. I can see why Audiophiles wouldn't like it but if you're not a stuck up snob about digital audio stuff it actually isn't that bad. I enjoy it for mostly electronic music it didn't really sound great playing more heavy rock stuff. Regardless the DAC/AMP is worth the 120 alone IMO and you can just use direct mode if you don't want any of that crap on.Awesome! Must have missed it, will look into that tonight.The hardest part is trying to figure out what the differences between the two are.  From what I am reading it seems like people are saying the AE-5 has better sound but the X3 is cool as heck.  I dont even know if the difference in sound is noticeable and how much it is noticeable.Can't comment on which sounds better Don't have an AE-5 but I doubt you would notice a difference tbh. X3 does lot more including having the ability to act a mixer for your microphone and audio and cleaning up your microphone for you. If you stream the X3 is the no brainer option. AE-5 is an onboard option if i remember right I prefer have an external option so the x3 makes more sense for me.also for the benefits of SXFI I personally Really enjoy it with my ATH AD900x that are open ear it gives a really nice soundstage I can also hear instruments I couldn't before. I don't like it with my closed ear Vmodas tho. So I guess its hit or miss depending on what you got. If you got some garbage ass cans idk if you'll really enjoy the experience or not. Neither sound card option is gonna make your shitty HyperX cans sound good at the end of the day.

@@ -1,0 +1,3 @@
+https://api.pushshift.io/reddit/search/comment/?q=soundblaster&subreddit=headphones&after=1d
+https://api.pushshift.io/reddit/search/comment/?subreddit=soundblasterofficial&after=1d
+https://api.pushshift.io/reddit/search/comment/?q=soundblaster&subreddit=headphoneadvice&after=1d
