@@ -26,11 +26,11 @@ def processCommand(argv):
 #30 api calls per minute
 
 def apiCall(argv):
-    reddit = praw.Reddit(client_id = '2NPgz322TJiuBQ',
-                        client_secret = 'YBV-sc_m3IKBKcbR5Hi5rwWwRAA',
-                        username = 'tyfecho',
-                        password = 'Acclamator6!',
-                        user_agent = 'prawtutorialv1')
+    reddit = praw.Reddit(client_id = '',
+                        client_secret = '',
+                        username = '',
+                        password = '',
+                        user_agent = '')
 
     subreddit = reddit.subreddit(argv['subredditname'])
 
